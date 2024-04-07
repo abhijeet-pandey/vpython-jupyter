@@ -7,6 +7,8 @@
     # REAL32[3] – Vertex 3                  - 12 bytes
     # UINT16    – Attribute byte count      -  2 bytes
 # end
+# Contributed by Abhijeet Pandey on 3rd May 2021
+# Email: pandeyabhijeetenator@gmail.com
 
 from vpython import *
 import struct
@@ -81,6 +83,3 @@ if __name__ == '__main__':
     filename = r"\convert_stl\Part1_bin.stl" # update this file
     man = stl_to_triangles(filename)
     man.color = color.orange
-    
-    
-    
